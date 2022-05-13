@@ -1,0 +1,3 @@
+p = i; - Ilegal
+i = (*&)j; - Ilegal
+q = *p; - Ilegal
