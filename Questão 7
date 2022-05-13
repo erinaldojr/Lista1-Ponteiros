@@ -1,0 +1,8 @@
+p = mat + 1; - Valido, pois o ponteiro P está recebendo o resultado da operação do endereço de mat + 1;
+
+p = mat++; - Invalido, pois diferente da declaração de cima, o que está sendo feito aqui é sendo incremetado 1 ao vetor mat, não ao ponteiro P.
+E isso não pode ocorrer pois mat é um ponteiro constante;
+
+p = ++mat; - Invalido, mesmo motivo de cima;
+
+x = (*mat)++; - Valido, pois primeiro mat é desreferenciado e após isso o valor que estava na posição inicial do vetor é incrementado;
